@@ -18,10 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile_full.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    "I'm a seasoned software developer from Florida working in the United States Air Force as a Developmental Engineer assuring U.S. access to space.",
+  paragraphTwo: "I enjoy learning about new technologies and I'm interested in AI/ML and FinTech.",
+  paragraphThree: 'I Strive to be Limitless!',
+  resume: 'https://drive.google.com/file/d/1JAOz0rGSrCBLmljJc_pTYr4pn5SfKspT/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,19 +31,11 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'OneChat',
-    info: '',
+    info:
+      'oneChat, is built with a user-centric design and industry-standard security and encryption, which allows users to quickly and easily communicate in a secure environment.  The program is entirely self-contained and can be installed on physical hardware or in a cloud platform.  The program has a multi-level security database that allows users with different classification requirements to store data in the same location.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Survey Rhino',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://onechat.shoc.us/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -50,7 +43,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'jroopnarine2013@fau.edu?subject=Portfolio%20Inquiry',
 };
 
 // FOOTER DATA
@@ -58,18 +51,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/justin-roopnarine/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Tr1ple777',
     },
   ],
 };

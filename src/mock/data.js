@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello, I am',
   name: 'Justin Roopnarine',
-  subtitle: 'Front End Developer',
+  subtitle: 'Developer 🚀',
   cta: '',
 };
 
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     "I'm a seasoned software developer from Florida working in the United States Air Force as a Developmental Engineer assuring U.S. access to space.",
   paragraphTwo: "I enjoy learning about new technologies and I'm interested in AI/ML and FinTech.",
-  paragraphThree: 'I Strive to be Limitless!',
+  paragraphThree: '💻',
   resume: 'https://drive.google.com/file/d/1JAOz0rGSrCBLmljJc_pTYr4pn5SfKspT/view?usp=sharing', // if no resume, the button will not show up
 };
 
